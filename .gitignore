@@ -1,2 +1,22 @@
-node_modules
+# Ignore .env file
 .env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and temp files
+logs/
+tmp/
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
